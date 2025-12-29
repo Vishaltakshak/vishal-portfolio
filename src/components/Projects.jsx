@@ -16,7 +16,7 @@ const Projects = () => {
         'Implemented geo-fencing algorithms for precise alert targeting',
         'Optimized MongoDB aggregations for instant incident reporting'
       ],
-      image: '/src/assets/women-safety.png',
+      image: '/assets/women-safety.png',
       tags: ['WebSockets', 'MongoDB', 'React', 'Node.js'],
       gradient: 'from-pink-500/10 to-rose-500/10',
       accent: 'group-hover:text-pink-400',
@@ -31,7 +31,7 @@ const Projects = () => {
         'Implemented immutable ledger recording for every transaction to prevent counterfeiting',
         'Designed real-time tracking and trustless data sharing for compliance'
       ],
-      image: '/src/assets/PharmaLogix.png',
+      image: '/assets/PharmaLogix.png',
       tags: ['Blockchain', 'Solidity', 'React', 'Node.js'],
       gradient: 'from-green-500/10 to-emerald-500/10',
       accent: 'group-hover:text-emerald-400',
@@ -46,7 +46,7 @@ const Projects = () => {
         'Reduced backend latency by 35% through caching strategies',
         'Designed premium, animation-heavy UI components'
       ],
-      image: '/src/assets/ceo-card.png',
+      image: '/assets/ceo-card.png',
       tags: ['Next.js', 'SSR', 'Redis', 'Framer Motion'],
       gradient: 'from-purple-500/10 to-indigo-500/10',
       accent: 'group-hover:text-purple-400',
@@ -61,7 +61,7 @@ const Projects = () => {
         'Implemented core player features including play/pause controls, track navigation',
         'UI state synchronization with async data handling'
       ],
-      image: '/src/assets/musicplayer.png',
+      image: '/assets/musicplayer.png',
       tags: ['React', 'Apple Music API', 'JavaScript', 'CSS'],
       gradient: 'from-blue-500/10 to-cyan-500/10',
       accent: 'group-hover:text-cyan-400',

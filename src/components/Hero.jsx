@@ -143,7 +143,7 @@ const Hero = () => {
                <div className="relative w-full h-full rounded-full overflow-hidden border border-white/10 shadow-2xl">
                   {/* Overlay for "blurred in background" feel if needed, but keeping image clear as per "add my profile picture" */}
                   <img 
-                    src="/src/assets/profile.jpeg" 
+                    src="/assets/profile.jpeg" 
                     alt="Vishal"
                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   />
