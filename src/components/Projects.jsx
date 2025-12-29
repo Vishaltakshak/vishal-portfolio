@@ -8,6 +8,21 @@ const Projects = () => {
 
   const projects = [
     {
+      title: 'CEOCard',
+      category: 'Luxury SaaS',
+      description: 'High-performance profile platform with SSR.',
+      detailedDesc: [
+        'Implemented Server-Side Rendering for <1s First Contentful Paint',
+        'Reduced backend latency by 35% through caching strategies',
+        'Designed premium, animation-heavy UI components'
+      ],
+      image: '/assets/ceo-card.png',
+      tags: ['Next.js', 'SSR', 'Redis', 'Framer Motion'],
+      gradient: 'from-purple-600/20 to-indigo-600/10',
+      accent: 'group-hover:text-purple-400',
+      link: 'https://ceo-card.vercel.app/'
+    },
+    {
       title: 'Women’s Safety Platform',
       category: 'Real-Time System',
       description: 'Sub-2-second alert broadcasting via WebSockets.',
@@ -23,36 +38,6 @@ const Projects = () => {
       link: 'https://women-s-safety.vercel.app/'
     },
     {
-      title: 'PharmaLogiX',
-      category: 'Blockchain Supply Chain',
-      description: 'Immutable drug inventory and tracking system.',
-      detailedDesc: [
-        'Built a blockchain-powered system for end-to-end transparency in pharmaceutical distribution',
-        'Implemented immutable ledger recording for every transaction to prevent counterfeiting',
-        'Designed real-time tracking and trustless data sharing for compliance'
-      ],
-      image: '/assets/PharmaLogix.png',
-      tags: ['Blockchain', 'Solidity', 'React', 'Node.js'],
-      gradient: 'from-green-500/10 to-emerald-500/10',
-      accent: 'group-hover:text-emerald-400',
-      link: '#'
-    },
-    {
-      title: 'CEOCard',
-      category: 'Luxury SaaS',
-      description: 'High-performance profile platform with SSR.',
-      detailedDesc: [
-        'Implemented Server-Side Rendering for <1s First Contentful Paint',
-        'Reduced backend latency by 35% through caching strategies',
-        'Designed premium, animation-heavy UI components'
-      ],
-      image: '/assets/ceo-card.png',
-      tags: ['Next.js', 'SSR', 'Redis', 'Framer Motion'],
-      gradient: 'from-purple-500/10 to-indigo-500/10',
-      accent: 'group-hover:text-purple-400',
-      link: 'https://ceo-card.vercel.app/'
-    },
-    {
       title: 'Music Player',
       category: 'Interactive Web App',
       description: 'API-driven music player with dynamic playback.',
@@ -66,6 +51,21 @@ const Projects = () => {
       gradient: 'from-blue-500/10 to-cyan-500/10',
       accent: 'group-hover:text-cyan-400',
       link: 'https://music-player-two-xi-54.vercel.app/'
+    },
+    {
+      title: 'PharmaLogiX',
+      category: 'Blockchain Supply Chain',
+      description: 'Immutable drug inventory and tracking system.',
+      detailedDesc: [
+        'Built a blockchain-powered system for end-to-end transparency in pharmaceutical distribution',
+        'Implemented immutable ledger recording for every transaction to prevent counterfeiting',
+        'Designed real-time tracking and trustless data sharing for compliance'
+      ],
+      image: '/assets/PharmaLogix.png',
+      tags: ['Blockchain', 'Solidity', 'React', 'Node.js'],
+      gradient: 'from-indigo-600/20 to-blue-700/10',
+      accent: 'group-hover:text-indigo-400',
+      link: '#'
     },
     {
       title: 'E-Court System',

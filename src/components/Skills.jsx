@@ -66,7 +66,7 @@ const Skills = () => {
            {duplicatedStats.map((skill, idx) => (
              <div 
                key={`${skill.name}-${idx}`}
-               className="flex items-center gap-3 px-8 py-4 bg-white/[0.03] backdrop-blur-md border border-white/[0.05] rounded-xl hover:bg-white/[0.08] hover:border-white/10 transition-all duration-300 min-w-[180px]"
+               className="flex items-center gap-3 px-8 py-4 bg-white/[0.03] backdrop-blur-md border border-white/[0.05] rounded-xl hover:bg-white/[0.08] hover:border-white/10 transition-all duration-300 min-w-max"
              >
                 <skill.icon className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors" />
                 <span className="text-gray-300 font-medium tracking-wide">{skill.name}</span>

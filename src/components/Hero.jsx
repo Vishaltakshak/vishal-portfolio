@@ -40,7 +40,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-[#050505] pt-0 md:pt-20"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-[#050505] pt-28 md:pt-20"
     >
         {/* Spotlight Effect behind Name */}
         <div 
