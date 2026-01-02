@@ -80,6 +80,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  @media (max-width: 1024px) {
+    body {
+      background-attachment: scroll;
+    }
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     font-weight: 700;

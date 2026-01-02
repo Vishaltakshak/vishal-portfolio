@@ -87,13 +87,13 @@ const Projects = () => {
   return (
     <section id="projects" className="pt-48 pb-32 relative bg-[#050505]">
       {/* Background Texture */}
-      <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')] mix-blend-overlay"></div>
+      <div className="hidden md:block absolute inset-0 opacity-[0.03] pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')] mix-blend-overlay"></div>
       
       {/* Dashed Guide Lines */}
       <div className="absolute inset-0 max-w-[90rem] mx-auto pointer-events-none">
          {/* Left Line */}
          <div 
-           className="absolute left-4 md:left-8 lg:left-12 h-full w-[2px] opacity-10"
+           className="hidden md:block absolute left-4 md:left-8 lg:left-12 h-full w-[2px] opacity-10"
            style={{ 
              backgroundImage: 'linear-gradient(to bottom, white 0%, white 50%, transparent 50%, transparent 100%)',
              backgroundSize: '2px 30px' 
@@ -101,7 +101,7 @@ const Projects = () => {
          ></div>
          {/* Right Line */}
          <div 
-           className="absolute right-4 md:right-8 lg:right-12 h-full w-[2px] opacity-10"
+           className="hidden md:block absolute right-4 md:right-8 lg:right-12 h-full w-[2px] opacity-10"
            style={{ 
              backgroundImage: 'linear-gradient(to bottom, white 0%, white 50%, transparent 50%, transparent 100%)',
              backgroundSize: '2px 30px' 
@@ -173,6 +173,8 @@ const Projects = () => {
                             <img 
                               src={project.image} 
                               alt={project.title}
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
                             />
                          </div>
